@@ -7,7 +7,7 @@ body{
             HEADER
 *****************************/
 html {
-    scroll-padding-top: 8.5em; /* height del header */
+    scroll-padding-top: 9.5em; /* height del header */
 }
 
 #cabecera{
@@ -27,11 +27,13 @@ html {
 }
 
 #cabecera h1{
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: 0.2em;
 }
 
 #cabecera p{
     margin: 0;
+    color: #b3b3b3;
 }
 
 #menu{
@@ -52,6 +54,16 @@ html {
     padding: 0.5em;
 }
 
+#menu li a{
+    text-decoration: none;
+    color: #ddd;
+    padding: 0.5em;
+}
+
+#menu li a:hover{
+    background-color: #7e7e7e;
+}
+
 /***************************
             CONTENT
 *****************************/
@@ -59,7 +71,7 @@ main{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 9em;
+    padding-top: 10em;
 }
 
 #estudios, #experiencia, #tecnologias, #about{
