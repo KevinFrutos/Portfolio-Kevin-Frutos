@@ -6,7 +6,7 @@ body{
             HEADER
 *****************************/
 html {
-    scroll-padding-top: 7em; /* height del header */
+    scroll-padding-top: 8.5em; /* height del header */
 }
 
 #cabecera{
@@ -20,6 +20,9 @@ html {
     text-align: center;
     background-color: #3d3d3dff;
     color: #ddd;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #cabecera h1{
@@ -55,7 +58,7 @@ main{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 7.5em;
+    padding-top: 8em;
 }
 
 #estudios, #experiencia, #tecnologias, #about{
