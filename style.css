@@ -1,5 +1,6 @@
 body{
     background-color: #dfdfdf;
+    margin: 0;
 }
 
 /***************************
@@ -55,16 +56,15 @@ html {
             CONTENT
 *****************************/
 main{
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 8em;
+    padding-top: 9em;
 }
 
 #estudios, #experiencia, #tecnologias, #about{
-    border: 0.1em solid #a000cb;
-    border-radius: 1em;
     margin-bottom: 1em;
     padding: 2em;
+    background: #22222244;
 }
 
