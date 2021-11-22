@@ -51,10 +51,10 @@ html {
 
 #menu li{
     list-style-type: none;
-    padding: 0.5em;
 }
 
 #menu li a{
+    display: block;
     text-decoration: none;
     color: #ddd;
     padding: 0.5em;
