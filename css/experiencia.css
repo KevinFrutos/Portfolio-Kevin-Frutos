@@ -36,6 +36,7 @@ div{
 
 .puesto{
     display: flex;
+    flex-wrap: wrap;
     font-size: 4em;
     margin-bottom: 0.2em;
 }
