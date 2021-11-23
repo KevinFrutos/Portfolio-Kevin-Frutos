@@ -1,0 +1,188 @@
+body{
+    margin: 0;    
+    background-image: url('../img/background-oscuro.png');
+    color: white;
+}
+
+div{
+    padding-bottom: 10em;
+}
+
+#cabecera h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#cabecera a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    width: 3em;
+    position: relative;
+    text-shadow: 0.01em 0.01em 0.05em #fff;
+    margin-right: 1em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container article{
+    width: 60%;
+}
+
+.nombre{
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+.puesto{
+    font-size: 1.1em;
+    color: #999;
+    margin: 0;
+}
+
+.descripcion{
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.lista-descripcion{
+    font-size: 1.5em;
+}
+
+.lista-descripcion li{
+    list-style-type: square;
+}
+
+/***************************
+        ANIMACIONES
+*****************************/
+
+@keyframes menu{
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(0.2em);}
+}
+
+.animacion{
+    animation-name: menu;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/***************************
+        RESPONSIVE
+*****************************/
+
+@media only screen and (max-width: 576px) {
+    body{ 
+        background-image: url('../img/background.png');
+    }
+
+    #cabecera h1{
+        justify-content: center;
+    }
+
+    #cabecera a{
+        margin-right: 0;
+    }
+
+    .container article{
+        width: 70%;
+    }
+
+    .nombre{
+        font-size: 1.8em;
+    }
+
+    .puesto{
+        font-size: 0.8em;
+    }
+    
+    .descripcion{
+        font-size: 1em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 720px) {
+    .container article{
+        width: 70%;
+    }
+
+    .nombre{
+        font-size: 1.8em;
+    }
+    
+    .puesto{
+        font-size: 0.8em;
+    }
+    
+    .descripcion{
+        font-size: 1em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+    .container article{
+        width: 70%;
+    }
+
+    .nombre{
+        font-size: 2em;
+    }
+    
+    .puesto{
+        font-size: 0.9em;
+    }
+    
+    .descripcion{
+        font-size: 1.2em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1400px)  {
+    .container article{
+        width: 70%;
+    }
+
+    .nombre{
+        font-size: 3em;
+    }
+    
+    .puesto{
+        font-size: 1.1em;
+    }
+    
+    .descripcion{
+        font-size: 1.5em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1.5em;
+    }
+}
+
+/***************************
+    RESPONSIVE HORIZONTAL
+*****************************/
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 1400px) and (orientation: landscape){
+    body {
+        background-image: url('../img/background.png');
+    }
+}
