@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url('background-prueba.png');
+    background-image: url('../img/background-prueba.png');
 	background-repeat: no-repeat;
     overflow: hidden;
 }
