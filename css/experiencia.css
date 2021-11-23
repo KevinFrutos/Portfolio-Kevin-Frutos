@@ -52,6 +52,7 @@ div{
 }
 
 .descripcion{
+    text-align: justify;
     font-size: 1.5em;
 }
 
@@ -83,19 +84,107 @@ div{
 *****************************/
 
 @media only screen and (max-width: 576px) {
+    .container article{
+        width: 70%;
+    }
+
+    .puesto{
+        font-size: 1.8em;
+    }
     
+    .empresa{
+        font-size: 0.9em;
+    }
+    
+    .tiempo{
+        font-size: 0.8em;
+    }
+    
+    .descripcion{
+        font-size: 1em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1em;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 720px) {
+    .container article{
+        width: 70%;
+    }
+
+    .puesto{
+        font-size: 1.8em;
+    }
     
+    .empresa{
+        font-size: 0.9em;
+    }
+    
+    .tiempo{
+        font-size: 0.8em;
+    }
+    
+    .descripcion{
+        font-size: 1em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1em;
+    }
 }
 
 @media only screen and (min-width: 720px) and (max-width: 960px) {
+    .container article{
+        width: 70%;
+    }
+
+    .puesto{
+        font-size: 2em;
+    }
     
+    .empresa{
+        font-size: 1em;
+    }
+    
+    .tiempo{
+        font-size: 0.9em;
+    }
+    
+    .descripcion{
+        font-size: 1.2em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1400px)  {
+    .container article{
+        width: 70%;
+    }
+
+    .puesto{
+        font-size: 3em;
+    }
     
+    .empresa{
+        font-size: 1.2em;
+    }
+    
+    .tiempo{
+        font-size: 1.1em;
+    }
+    
+    .descripcion{
+        font-size: 1.5em;
+    }
+    
+    .lista-descripcion{
+        font-size: 1.5em;
+    }
 }
 
 /***************************
