@@ -50,12 +50,10 @@ div{
     font-size: 1.5em;
 }
 
-.lista-descripcion{
+.contacto a{
+    text-decoration: none;
     font-size: 1.5em;
-}
-
-.lista-descripcion li{
-    list-style-type: square;
+    color: #0097FF;
 }
 
 /***************************
@@ -96,17 +94,15 @@ div{
 
     .nombre{
         font-size: 1.8em;
+        text-align: center;
     }
 
     .puesto{
         font-size: 0.8em;
+        text-align: center;
     }
     
     .descripcion{
-        font-size: 1em;
-    }
-    
-    .lista-descripcion{
         font-size: 1em;
     }
 }
