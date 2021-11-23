@@ -19,7 +19,6 @@ const letraTemplate = document.querySelector("#letraTemplate")
 
 for (let i = 0; i < titulos.length; i++) {
     let titulo_estudios = titulos[i]
-    console.log(titulo_estudios);
     for (let j = 0; j < titulo_estudios.length; j++) {
         const clone = letraTemplate.content.cloneNode(true)
         if(titulo_estudios.charAt(j) == " "){
@@ -27,7 +26,6 @@ for (let i = 0; i < titulos.length; i++) {
         }else{
             clone.querySelector(".letra").textContent = titulo_estudios.charAt(j)
         }
-        console.log(titulo_estudios.charAt(i));
         titulo[i].appendChild(clone)
     }
 }

@@ -18,7 +18,6 @@ const letraTemplate = document.querySelector("#letraTemplate")
 
 for (let i = 0; i < nombres.length; i++) {
     let name = nombres[i]
-    console.log(name);
     for (let j = 0; j < name.length; j++) {
         const clone = letraTemplate.content.cloneNode(true)
         if(name.charAt(j) == " "){
@@ -26,7 +25,6 @@ for (let i = 0; i < nombres.length; i++) {
         }else{
             clone.querySelector(".letra").textContent = name.charAt(j)
         }
-        console.log(name.charAt(i));
         nombre[i].appendChild(clone)
     }
 }
