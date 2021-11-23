@@ -58,12 +58,12 @@ div{
     }
     
     #cabecera{
-        transform: translate(-50%, 80%);
+        transform: translate(-50%, 100%);
     }
 
     #cabecera a{
         font-size: 1.5em;
-        width: 6.5em;
+        width: 6em;
     }
 }
 
