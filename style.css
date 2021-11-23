@@ -65,7 +65,7 @@ div{
         RESPONSIVE
 *****************************/
 
-@media only screen and (orientation: landscape) and (max-width: 720px) {
+@media only screen and (max-width: 720px) and (orientation: landscape){
     body:before {
         background-color: rgba(0,0,0,0.7);
     }
