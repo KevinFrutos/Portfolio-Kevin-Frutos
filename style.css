@@ -65,21 +65,6 @@ div{
         RESPONSIVE
 *****************************/
 
-@media only screen and (max-width: 720px) and (orientation: landscape){
-    body:before {
-        background-color: rgba(0,0,0,0.7);
-    }
-
-    #cabecera{
-        transform: translate(-50%, 45%);
-    }
-
-    #cabecera a{
-        font-size: 1.2em;
-        width: 6em;
-    }
-}
-
 @media only screen and (max-width: 576px) {
     body:before {
         background-color: rgba(0,0,0,0.7);
@@ -124,6 +109,40 @@ div{
 
     #cabecera a{
         font-size: 3em;
+        width: 6em;
+    }
+}
+
+/***************************
+    RESPONSIVE HORIZONTAL
+*****************************/
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 720px) and (orientation: landscape){
+    body:before {
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    #cabecera{
+        transform: translate(-50%, 45%)!important;
+    }
+
+    #cabecera a{
+        font-size: 1.2em!important;
+        width: 6em;
+    }
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1024px) and (orientation: landscape){
+    body:before {
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    #cabecera{
+        transform: translate(-50%, 50%)!important;
+    }
+
+    #cabecera a{
+        font-size: 1.5em!important;
         width: 6em;
     }
 }
