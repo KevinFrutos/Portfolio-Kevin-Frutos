@@ -28,6 +28,6 @@ about.onmouseover = () => {
 }
 
 about.onmouseleave = () => {
-    about.textContent = "Kevin Frutos"
+    about.textContent = "Kevin Frutos."
     about.classList.remove("animacion")
 }
