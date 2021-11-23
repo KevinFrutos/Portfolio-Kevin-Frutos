@@ -1,0 +1,97 @@
+body{
+    background-color: #dfdfdf;
+    margin: 0;
+}
+
+/***************************
+            HEADER
+*****************************/
+html {
+    scroll-padding-top: 9.5em; /* height del header */
+}
+
+#cabecera{
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: #3d3d3dff;
+    color: #ddd;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#cabecera h1{
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+#cabecera p{
+    margin: 0;
+    color: #b3b3b3;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    list-style-type: none;
+}
+
+#menu li a{
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+    padding: 0.5em;
+}
+
+#menu li a:hover{
+    background-color: #7e7e7e;
+}
+
+/***************************
+            CONTENT
+*****************************/
+main{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10em;
+}
+
+#estudios, #experiencia, #tecnologias, #about{
+    margin-bottom: 1em;
+    padding: 2em;
+    background: #22222244;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tecnologias div{
+    display: flex;
+}
+
+#about p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
