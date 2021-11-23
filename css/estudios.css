@@ -34,15 +34,9 @@ div{
     width: 60%;
 }
 
-.puesto{
-    font-size: 4em;
+.titulo{
+    font-size: 3em;
     margin-bottom: 0.2em;
-}
-
-.empresa{
-    margin: 0;
-    font-size: 1.3em;
-    color: #999;
 }
 
 .tiempo{
@@ -96,14 +90,10 @@ div{
         width: 70%;
     }
 
-    .puesto{
+    .titulo{
         font-size: 1.8em;
     }
-    
-    .empresa{
-        font-size: 0.9em;
-    }
-    
+
     .tiempo{
         font-size: 0.8em;
     }
@@ -122,12 +112,8 @@ div{
         width: 70%;
     }
 
-    .puesto{
+    .titulo{
         font-size: 1.8em;
-    }
-    
-    .empresa{
-        font-size: 0.9em;
     }
     
     .tiempo{
@@ -148,12 +134,8 @@ div{
         width: 70%;
     }
 
-    .puesto{
+    .titulo{
         font-size: 2em;
-    }
-    
-    .empresa{
-        font-size: 1em;
     }
     
     .tiempo{
@@ -174,12 +156,8 @@ div{
         width: 70%;
     }
 
-    .puesto{
+    .titulo{
         font-size: 3em;
-    }
-    
-    .empresa{
-        font-size: 1.2em;
     }
     
     .tiempo{
