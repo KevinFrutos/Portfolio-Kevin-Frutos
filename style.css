@@ -36,11 +36,12 @@ div{
 }
 
 #cabecera a{
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-decoration: none;
     font-size: 4em;
     width: 6em;
     position: relative;
+    text-shadow: 0.01em 0.01em 0.05em #fff;
 }
 
 @keyframes menu{
@@ -52,4 +53,48 @@ div{
     animation-name: menu;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 576px) {
+    #cabecera{
+        transform: translate(-50%, 80%);
+    }
+
+    #cabecera a{
+        font-size: 1.5em;
+        width: 6em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 720px) {
+    #cabecera{
+        transform: translate(-50%, 80%);
+    }
+
+    #cabecera a{
+        font-size: 2em;
+        width: 6em;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+    #cabecera{
+        transform: translate(-50%, 70%);
+    }
+
+    #cabecera a{
+        font-size: 2.5em;
+        width: 6em;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1400px) {
+    #cabecera{
+        transform: translate(-50%, 50%);
+    }
+
+    #cabecera a{
+        font-size: 3em;
+        width: 6em;
+    }
 }

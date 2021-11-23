@@ -1,15 +1,15 @@
-const trabajo = document.querySelector("#trabajo")
+const experiencia = document.querySelector("#experiencia")
 const estudios = document.querySelector("#estudios")
 const about = document.querySelector("#about")
 
-trabajo.onmouseover = () => {
-    trabajo.textContent = "Experiencia"
-    trabajo.classList.add("animacion")
+experiencia.onmouseover = () => {
+    experiencia.textContent = "Experiencia"
+    experiencia.classList.add("animacion")
 }
 
-trabajo.onmouseleave = () => {
-    trabajo.textContent = "Hola!"
-    trabajo.classList.remove("animacion")
+experiencia.onmouseleave = () => {
+    experiencia.textContent = "Hola!"
+    experiencia.classList.remove("animacion")
 }
 
 estudios.onmouseover = () => {
