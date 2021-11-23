@@ -105,10 +105,6 @@ div{
 *****************************/
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 720px) and (orientation: landscape){
-    body {
-        background-image: url('../img/background.png');
-    }
-
     #cabecera{
         transform: translate(-50%, 45%)!important;
     }
@@ -119,15 +115,17 @@ div{
 }
 
 @media only screen and (min-device-width: 720px) and (max-device-width: 1024px) and (orientation: landscape){
-    body {
-        background-image: url('../img/background.png');
-    }
-
     #cabecera{
         transform: translate(-50%, 50%)!important;
     }
 
     #cabecera a{
         font-size: 1.5em!important;
+    }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 1400px) and (orientation: landscape){
+    body {
+        background-image: url('../img/background.png');
     }
 }
