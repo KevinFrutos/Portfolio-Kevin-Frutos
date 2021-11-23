@@ -1,14 +1,45 @@
+const html = document.querySelector("html")
 const home = document.querySelector("#home")
+const ancho = window.innerWidth
 
-home.onmouseover = () => {
-    home.textContent = "Inicio."
-    home.classList.add("animacion")
+let toggle = false
+
+
+if (ancho <= 576) {
+    html.onclick = () => {
+        if (!toggle) {
+            setTimeout(() => {
+                home.textContent = "Inicio."
+                home.classList.add("fade-in")
+            }, 100);
+
+            home.classList.remove("fade-in")
+
+            toggle = true
+        } else {
+            setTimeout(() => {
+                home.textContent = "Kevin."
+                home.classList.add("fade-in")
+            }, 100);
+
+            home.classList.remove("fade-in")
+
+            toggle = false
+        }
+
+    }
+}else{
+    home.onmouseover = () => {
+        home.textContent = "Inicio."
+        home.classList.add("animacion")
+    }
+    
+    home.onmouseleave = () => {
+        home.textContent = "Kevin."
+        home.classList.remove("animacion")
+    }
 }
 
-home.onmouseleave = () => {
-    home.textContent = "Kevin."
-    home.classList.remove("animacion")
-}
 
 // ANIMACIONES
 const puestos = ["DISEÑADOR WEB", "PRACTICAS AVELLANA DIGITAL"]
