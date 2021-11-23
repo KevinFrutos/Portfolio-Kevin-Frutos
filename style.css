@@ -112,3 +112,18 @@ div{
         width: 6em;
     }
 }
+
+@media only screen and (max-width: 720px) and (orientation: landscape){
+    body:before {
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    #cabecera{
+        transform: translate(-50%, 45%);
+    }
+
+    #cabecera a{
+        font-size: 1.5em;
+        width: 6em;
+    }
+}
