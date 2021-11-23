@@ -6,9 +6,6 @@ let ancho = window.innerWidth
 window.onresize = () => {
     ancho = window.innerWidth
 
-
-    console.log(ancho);
-
     if (ancho > 576) {
         experiencia.onmouseover = () => {
             experiencia.textContent = "Experiencia"
