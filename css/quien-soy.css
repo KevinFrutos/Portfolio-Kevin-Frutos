@@ -45,15 +45,15 @@ div{
     margin: 0;
 }
 
-.descripcion{
+.descripcion, .contacto{
     text-align: justify;
     font-size: 1.5em;
 }
 
 .contacto a{
     text-decoration: none;
-    font-size: 1.5em;
-    color: #0097FF;
+    font-size: 1em;
+    color: #7D3C98;
 }
 
 /***************************
